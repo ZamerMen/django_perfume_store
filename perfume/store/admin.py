@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Category, Element, Perfume, Comment
 
-# Register your models here.
+
+admin.site.register([Category, Element, Perfume, Comment])
+
